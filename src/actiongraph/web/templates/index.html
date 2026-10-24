@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ActionGraph</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="5" cy="12" r="3"/><circle cx="19" cy="5" r="3"/><circle cx="19" cy="19" r="3"/><path d="M7.6 10.6 16.4 6.4M7.6 13.4l8.8 4.2" stroke-width="2" fill="none"/></svg></span>
+    <div>
+      <div class="brand-name">ActionGraph</div>
+      <div class="brand-tag">Turn meetings into meaningful action.</div>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <span class="model-pill" id="model-pill">model: …</span>
+    <button class="btn primary" id="open-upload">Upload transcript</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="side-section">
+      <div class="side-title">Meetings</div>
+      <nav id="meeting-list" class="meeting-list"><div class="muted">Loading…</div></nav>
+    </div>
+    <div class="side-section">
+      <div class="side-title">Upcoming deadlines <span class="muted small">(7 days)</span></div>
+      <ul id="notifications" class="notif-list"></ul>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <section id="empty-state" class="empty">
+      <h2>No meeting selected</h2>
+      <p>Upload a transcript (TXT, VTT, SRT, JSON or PDF) or run <code>make demo</code> to load the sample series.</p>
+    </section>
+
+    <section id="meeting-view" hidden>
+      <div class="meeting-head">
+        <div>
+          <div class="eyebrow" id="m-series"></div>
+          <h1 id="m-title"></h1>
+          <div class="meta"><span id="m-date"></span> · <span id="m-participants"></span></div>
+        </div>
+        <div class="export">
+          <span class="muted small">Export</span>
+          <a class="btn ghost" id="exp-md">Markdown</a>
+          <a class="btn ghost" id="exp-json">JSON</a>
+          <a class="btn ghost" id="exp-ics">Calendar (.ics)</a>
+        </div>
+      </div>
+
+      <div class="kpis">
+        <div class="kpi"><div class="kpi-val" id="k-open">0</div><div class="kpi-label">Open actions</div></div>
+        <div class="kpi"><div class="kpi-val" id="k-due">0</div><div class="kpi-label">Due within 3 days</div></div>
+        <div class="kpi warn"><div class="kpi-val" id="k-review">0</div><div class="kpi-label">Need review</div></div>
+        <div class="kpi"><div class="kpi-val" id="k-decisions">0</div><div class="kpi-label">Decisions</div></div>
+        <div class="kpi danger"><div class="kpi-val" id="k-risks">0</div><div class="kpi-label">Risks &amp; blockers</div></div>
+      </div>
+
+      <nav class="tabs" role="tablist">
+        <button role="tab" data-tab="summary" class="active">Summary</button>
+        <button role="tab" data-tab="actions">Action Items <span class="count" id="c-actions"></span></button>
+        <button role="tab" data-tab="decisions">Decisions <span class="count" id="c-decisions"></span></button>
+        <button role="tab" data-tab="risks">Risks <span class="count" id="c-risks"></span></button>
+        <button role="tab" data-tab="transcript">Transcript <span class="count" id="c-turns"></span></button>
+      </nav>
+
+      <div class="tab-panel" data-panel="summary">
+        <div class="card"><h3>Summary</h3><p id="summary-text"></p></div>
+        <div class="grid-2">
+          <div class="card"><h3>Closed since the last meeting</h3><ul id="tr-completed" class="track-list"></ul></div>
+          <div class="card"><h3>Still open from earlier meetings</h3><ul id="tr-open" class="track-list"></ul></div>
+        </div>
+        <div class="card usage" id="usage"></div>
+      </div>
+
+      <div class="tab-panel" data-panel="actions" hidden>
+        <div class="toolbar">
+          <select id="f-owner"><option value="">All owners</option></select>
+          <label class="toggle"><input type="checkbox" id="f-review"> Needs review only</label>
+          <label class="toggle"><input type="checkbox" id="f-hide-done"> Hide completed</label>
+        </div>
+        <div id="action-list" class="items"></div>
+      </div>
+
+      <div class="tab-panel" data-panel="decisions" hidden><div id="decision-list" class="items"></div></div>
+      <div class="tab-panel" data-panel="risks" hidden><div id="risk-list" class="items"></div></div>
+      <div class="tab-panel" data-panel="transcript" hidden><div id="transcript" class="transcript"></div></div>
+    </section>
+  </main>
+</div>
+
+<dialog id="upload-dialog">
+  <form id="upload-form" method="dialog">
+    <h2>Upload a transcript</h2>
+    <label>File <input type="file" name="file" accept=".txt,.md,.vtt,.srt,.json,.pdf" required></label>
+    <label>Title <input type="text" name="title" placeholder="Taken from the file if empty"></label>
+    <div class="row">
+      <label>Meeting date <input type="date" name="meeting_date"></label>
+      <label>Series <input type="text" name="series" placeholder="e.g. atlas-checkout"></label>
+    </div>
+    <p class="muted small">Meetings in the same series share open items: completions are detected automatically.</p>
+    <div class="dialog-actions">
+      <button type="button" class="btn ghost" id="cancel-upload">Cancel</button>
+      <button type="submit" class="btn primary" id="submit-upload">Analyze</button>
+    </div>
+    <div id="upload-error" class="error" hidden></div>
+  </form>
+</dialog>
+
+<div id="toast" class="toast" hidden></div>
+<script src="{{ url_for('static', path='app.js') }}"></script>
+</body>
+</html>
