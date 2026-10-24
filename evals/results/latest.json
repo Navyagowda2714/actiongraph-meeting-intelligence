@@ -1,0 +1,283 @@
+{
+  "provider": "offline-rules-v1",
+  "dev": {
+    "actions": {
+      "tp": 23,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "explicit": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "implicit": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "decisions": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "risks": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "owner": {
+      "correct": 23,
+      "total": 23,
+      "value": 1.0
+    },
+    "deadline": {
+      "correct": 23,
+      "total": 23,
+      "value": 1.0
+    },
+    "deadline_when_gold_has_one": {
+      "correct": 12,
+      "total": 12,
+      "value": 1.0
+    },
+    "kind": {
+      "correct": 23,
+      "total": 23,
+      "value": 1.0
+    },
+    "evidence_valid": {
+      "correct": 48,
+      "total": 48,
+      "value": 1.0
+    },
+    "raw_evidence_valid": {
+      "correct": 48,
+      "total": 48,
+      "value": 1.0
+    },
+    "fp_flagged_for_review": {
+      "correct": 0,
+      "total": 0,
+      "value": 0.0
+    },
+    "tp_flagged_for_review": {
+      "correct": 3,
+      "total": 23,
+      "value": 0.13
+    },
+    "meetings": 3,
+    "gold_action_items": 23
+  },
+  "heldout": {
+    "actions": {
+      "tp": 20,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.87,
+      "recall": 1.0,
+      "f1": 0.93
+    },
+    "explicit": {
+      "tp": 15,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.882,
+      "recall": 1.0,
+      "f1": 0.938
+    },
+    "implicit": {
+      "tp": 5,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.833,
+      "recall": 1.0,
+      "f1": 0.909
+    },
+    "decisions": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.286
+    },
+    "risks": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 4,
+      "precision": 1.0,
+      "recall": 0.333,
+      "f1": 0.5
+    },
+    "owner": {
+      "correct": 20,
+      "total": 20,
+      "value": 1.0
+    },
+    "deadline": {
+      "correct": 19,
+      "total": 20,
+      "value": 0.95
+    },
+    "deadline_when_gold_has_one": {
+      "correct": 11,
+      "total": 12,
+      "value": 0.917
+    },
+    "kind": {
+      "correct": 19,
+      "total": 20,
+      "value": 0.95
+    },
+    "evidence_valid": {
+      "correct": 35,
+      "total": 35,
+      "value": 1.0
+    },
+    "raw_evidence_valid": {
+      "correct": 35,
+      "total": 35,
+      "value": 1.0
+    },
+    "fp_flagged_for_review": {
+      "correct": 2,
+      "total": 3,
+      "value": 0.667
+    },
+    "tp_flagged_for_review": {
+      "correct": 2,
+      "total": 20,
+      "value": 0.1
+    },
+    "meetings": 3,
+    "gold_action_items": 20
+  },
+  "all": {
+    "actions": {
+      "tp": 43,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.935,
+      "recall": 1.0,
+      "f1": 0.966
+    },
+    "explicit": {
+      "tp": 29,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.935,
+      "recall": 1.0,
+      "f1": 0.967
+    },
+    "implicit": {
+      "tp": 14,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.933,
+      "recall": 1.0,
+      "f1": 0.966
+    },
+    "decisions": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.857,
+      "recall": 0.6,
+      "f1": 0.706
+    },
+    "risks": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 4,
+      "precision": 1.0,
+      "recall": 0.714,
+      "f1": 0.833
+    },
+    "owner": {
+      "correct": 43,
+      "total": 43,
+      "value": 1.0
+    },
+    "deadline": {
+      "correct": 42,
+      "total": 43,
+      "value": 0.977
+    },
+    "deadline_when_gold_has_one": {
+      "correct": 23,
+      "total": 24,
+      "value": 0.958
+    },
+    "kind": {
+      "correct": 42,
+      "total": 43,
+      "value": 0.977
+    },
+    "evidence_valid": {
+      "correct": 83,
+      "total": 83,
+      "value": 1.0
+    },
+    "raw_evidence_valid": {
+      "correct": 83,
+      "total": 83,
+      "value": 1.0
+    },
+    "fp_flagged_for_review": {
+      "correct": 2,
+      "total": 3,
+      "value": 0.667
+    },
+    "tp_flagged_for_review": {
+      "correct": 5,
+      "total": 43,
+      "value": 0.116
+    },
+    "meetings": 6,
+    "gold_action_items": 43
+  },
+  "tracking_completions": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "usage": {
+    "input": 6111,
+    "output": 1864,
+    "calls": 6,
+    "latency_ms": 15.866472000425347
+  },
+  "errors": {
+    "atlas_sync_2026-03-02": [],
+    "atlas_sync_2026-03-09": [],
+    "atlas_sync_2026-03-16": [],
+    "heldout_incident_review_2026-04-07": [
+      "FP: 'Walk us through the timeline' (t001, t002)",
+      "FP: 'Add a freshness banner to the dashboards when data is older than a day' (t013)"
+    ],
+    "heldout_launch_planning_2026-05-12": [],
+    "heldout_support_ops_2026-06-03": [
+      "deadline h3-a1: predicted None, gold 2026-06-05",
+      "FP: 'Renew for one more month' (t012)"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "split": "heldout",
+  "meeting_date": "2026-04-07",
+  "action_items": [
+    {
+      "id": "h-a1",
+      "turns": [
+        "t004"
+      ],
+      "owner": "Omar Haddad",
+      "deadline": "2026-04-07",
+      "kind": "explicit",
+      "description": "Fix the pager rotation"
+    },
+    {
+      "id": "h-a2",
+      "turns": [
+        "t007",
+        "t008",
+        "t009"
+      ],
+      "owner": "Grace Liu",
+      "deadline": "2026-04-10",
+      "kind": "explicit",
+      "description": "Draft a proposal for schema checks at ingestion"
+    },
+    {
+      "id": "h-a3",
+      "turns": [
+        "t011",
+        "t012"
+      ],
+      "owner": "Tomás Ruiz",
+      "deadline": "2026-04-07",
+      "kind": "explicit",
+      "description": "Reach out to finance to re-run the report"
+    },
+    {
+      "id": "h-a4",
+      "turns": [
+        "t015"
+      ],
+      "owner": "Tomás Ruiz",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Look into adding freshness banners in the BI tool"
+    },
+    {
+      "id": "h-a5",
+      "turns": [
+        "t016"
+      ],
+      "owner": "Hannah Weiss",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Take the 48-hour schema-change notice rule to the upstream team's lead"
+    },
+    {
+      "id": "h-a6",
+      "turns": [
+        "t018"
+      ],
+      "owner": "Grace Liu",
+      "deadline": "2026-04-07",
+      "kind": "explicit",
+      "description": "Kick off the backfill and monitor it"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "h-d1",
+      "turns": [
+        "t014"
+      ],
+      "summary": "Freshness banners on all tier-one dashboards"
+    },
+    {
+      "id": "h-d2",
+      "turns": [
+        "t016"
+      ],
+      "summary": "Upstream schema changes need 48h notice in the data-platform channel"
+    }
+  ],
+  "risks": [
+    {
+      "id": "h-r1",
+      "turns": [
+        "t005"
+      ],
+      "kind": "risk",
+      "summary": "No schema contract with the upstream team"
+    },
+    {
+      "id": "h-r2",
+      "turns": [
+        "t017"
+      ],
+      "kind": "risk",
+      "summary": "Backfill may not finish before month-end close"
+    }
+  ],
+  "completions": [],
+  "meeting": "heldout_incident_review_2026-04-07"
+}

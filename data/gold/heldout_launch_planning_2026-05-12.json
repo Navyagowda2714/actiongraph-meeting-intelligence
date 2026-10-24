@@ -1,0 +1,115 @@
+{
+  "meeting": "heldout_launch_planning_2026-05-12",
+  "split": "heldout",
+  "meeting_date": "2026-05-12",
+  "action_items": [
+    {
+      "id": "h2-a1",
+      "turns": [
+        "t002"
+      ],
+      "owner": "Rahul Mehta",
+      "deadline": "2026-05-13",
+      "kind": "explicit",
+      "description": "Send the positioning doc draft to everyone"
+    },
+    {
+      "id": "h2-a2",
+      "turns": [
+        "t007",
+        "t008"
+      ],
+      "owner": "Sam Carter",
+      "deadline": "2026-05-21",
+      "kind": "explicit",
+      "description": "Own the sales one-pager"
+    },
+    {
+      "id": "h2-a3",
+      "turns": [
+        "t009"
+      ],
+      "owner": "Rahul Mehta",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Send Sam the key points once the positioning doc is final"
+    },
+    {
+      "id": "h2-a4",
+      "turns": [
+        "t011"
+      ],
+      "owner": "Rahul Mehta",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Take a first pass at the FAQ"
+    },
+    {
+      "id": "h2-a5",
+      "turns": [
+        "t015"
+      ],
+      "owner": "Elena Petrova",
+      "deadline": "2026-05-12",
+      "kind": "explicit",
+      "description": "Ping Marco about the pricing page tiers"
+    },
+    {
+      "id": "h2-a6",
+      "turns": [
+        "t016"
+      ],
+      "owner": "Nora Kim",
+      "deadline": "2026-05-21",
+      "kind": "explicit",
+      "description": "Book an exec review session"
+    },
+    {
+      "id": "h2-a7",
+      "turns": [
+        "t017",
+        "t018"
+      ],
+      "owner": "Rahul Mehta",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Check whether the demo environment will have the new features"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "h2-d1",
+      "turns": [
+        "t012",
+        "t013"
+      ],
+      "summary": "Skip the animated version; static assets only"
+    },
+    {
+      "id": "h2-d2",
+      "turns": [
+        "t019"
+      ],
+      "summary": "Hold the launch date of the 28th unless messaging slips past Friday"
+    }
+  ],
+  "risks": [
+    {
+      "id": "h2-r1",
+      "turns": [
+        "t004"
+      ],
+      "kind": "blocker",
+      "summary": "Social assets blocked until messaging is locked"
+    },
+    {
+      "id": "h2-r2",
+      "turns": [
+        "t014"
+      ],
+      "kind": "risk",
+      "summary": "Pricing page shows old tiers"
+    }
+  ],
+  "completions": []
+}

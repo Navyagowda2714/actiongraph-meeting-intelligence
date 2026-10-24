@@ -1,0 +1,149 @@
+{
+  "split": "dev",
+  "meeting_date": "2026-03-02",
+  "action_items": [
+    {
+      "id": "m1-a1",
+      "turns": [
+        "t004"
+      ],
+      "owner": "Priya Raman",
+      "deadline": "2026-03-04",
+      "kind": "explicit",
+      "description": "Have the full checkout mockups ready"
+    },
+    {
+      "id": "m1-a2",
+      "turns": [
+        "t006"
+      ],
+      "owner": "Lucas Ferreira",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Dig into the drop-off country breakdown and share it in the channel"
+    },
+    {
+      "id": "m1-a3",
+      "turns": [
+        "t010"
+      ],
+      "owner": "Daniel Okafor",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Look at the promo code reset bug"
+    },
+    {
+      "id": "m1-a4",
+      "turns": [
+        "t017",
+        "t018"
+      ],
+      "owner": "Daniel Okafor",
+      "deadline": "2026-03-13",
+      "kind": "explicit",
+      "description": "Write a short note on what an Adyen migration would involve"
+    },
+    {
+      "id": "m1-a5",
+      "turns": [
+        "t023"
+      ],
+      "owner": "Maya Chen",
+      "deadline": "2026-03-02",
+      "kind": "explicit",
+      "description": "Escalate the vendor credentials issue with their account manager"
+    },
+    {
+      "id": "m1-a6",
+      "turns": [
+        "t025"
+      ],
+      "owner": "Daniel Okafor",
+      "deadline": "2026-03-04",
+      "kind": "explicit",
+      "description": "Get the staging environment refreshed"
+    },
+    {
+      "id": "m1-a7",
+      "turns": [
+        "t026"
+      ],
+      "owner": "Sofia Alvarez",
+      "deadline": "2026-03-09",
+      "kind": "implicit",
+      "description": "Complete the regression pass"
+    },
+    {
+      "id": "m1-a8",
+      "turns": [
+        "t027",
+        "t028"
+      ],
+      "owner": "Lucas Ferreira",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Set up a dashboard tracking conversion by checkout step"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "m1-d1",
+      "turns": [
+        "t014",
+        "t017"
+      ],
+      "summary": "Stay on Stripe for the beta; revisit Adyen in Q3"
+    },
+    {
+      "id": "m1-d2",
+      "turns": [
+        "t031"
+      ],
+      "summary": "Freeze the design after Wednesday's review"
+    }
+  ],
+  "risks": [
+    {
+      "id": "m1-r1",
+      "turns": [
+        "t002"
+      ],
+      "kind": "risk",
+      "summary": "Reduced engineering capacity this week"
+    },
+    {
+      "id": "m1-r2",
+      "turns": [
+        "t012"
+      ],
+      "kind": "risk",
+      "summary": "Payment migration would add three weeks and endanger the beta date"
+    },
+    {
+      "id": "m1-r3",
+      "turns": [
+        "t020"
+      ],
+      "kind": "blocker",
+      "summary": "Waiting on vendor production credentials for address validation"
+    },
+    {
+      "id": "m1-r4",
+      "turns": [
+        "t024"
+      ],
+      "kind": "blocker",
+      "summary": "Regression suite blocked on staging refresh"
+    },
+    {
+      "id": "m1-r5",
+      "turns": [
+        "t030"
+      ],
+      "kind": "risk",
+      "summary": "Further design changes would force a usability re-test"
+    }
+  ],
+  "completions": [],
+  "meeting": "atlas_sync_2026-03-02"
+}

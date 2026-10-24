@@ -1,0 +1,146 @@
+{
+  "split": "dev",
+  "meeting_date": "2026-03-16",
+  "action_items": [
+    {
+      "id": "m3-a1",
+      "turns": [
+        "t006"
+      ],
+      "owner": "Lucas Ferreira",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Share the conversion dashboard link"
+    },
+    {
+      "id": "m3-a2",
+      "turns": [
+        "t008"
+      ],
+      "owner": "Daniel Okafor",
+      "deadline": "2026-03-18",
+      "kind": "explicit",
+      "description": "Run the load test against staging"
+    },
+    {
+      "id": "m3-a3",
+      "turns": [
+        "t012"
+      ],
+      "owner": "Maya Chen",
+      "deadline": "2026-03-19",
+      "kind": "explicit",
+      "description": "Send the go/no-go summary to leadership"
+    },
+    {
+      "id": "m3-a4",
+      "turns": [
+        "t013"
+      ],
+      "owner": "Sofia Alvarez",
+      "deadline": "2026-03-20",
+      "kind": "explicit",
+      "description": "Brief the support team on the new checkout"
+    },
+    {
+      "id": "m3-a5",
+      "turns": [
+        "t015"
+      ],
+      "owner": "Sofia Alvarez",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Take over the help center articles"
+    },
+    {
+      "id": "m3-a6",
+      "turns": [
+        "t016",
+        "t017"
+      ],
+      "owner": "Lucas Ferreira",
+      "deadline": "2026-03-23",
+      "kind": "explicit",
+      "description": "Set up an alert if conversion drops below baseline during the beta"
+    },
+    {
+      "id": "m3-a7",
+      "turns": [
+        "t018"
+      ],
+      "owner": "Priya Raman",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Keep an eye on session recordings once the beta starts"
+    },
+    {
+      "id": "m3-a8",
+      "turns": [
+        "t018"
+      ],
+      "owner": "Priya Raman",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Update the empty-state illustrations",
+      "priority": "low"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "m3-d1",
+      "turns": [
+        "t012"
+      ],
+      "summary": "Go for the beta on March 23rd at 10%; the P2 ships as a known issue"
+    }
+  ],
+  "risks": [
+    {
+      "id": "m3-r1",
+      "turns": [
+        "t013"
+      ],
+      "kind": "risk",
+      "summary": "Support team not briefed; tickets may spike"
+    }
+  ],
+  "completions": [
+    {
+      "item": "m1-a4",
+      "turn": "t002"
+    },
+    {
+      "item": "m2-a4",
+      "turn": "t003"
+    },
+    {
+      "item": "m2-a1",
+      "turn": "t004"
+    },
+    {
+      "item": "m2-a2",
+      "turn": "t005"
+    },
+    {
+      "item": "m1-a7",
+      "turn": "t005"
+    },
+    {
+      "item": "m2-a3",
+      "turn": "t006"
+    },
+    {
+      "item": "m1-a8",
+      "turn": "t006"
+    },
+    {
+      "item": "m2-a6",
+      "turn": "t007"
+    },
+    {
+      "item": "m2-a5",
+      "turn": "t008"
+    }
+  ],
+  "meeting": "atlas_sync_2026-03-16"
+}

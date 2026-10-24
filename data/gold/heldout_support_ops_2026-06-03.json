@@ -1,0 +1,107 @@
+{
+  "meeting": "heldout_support_ops_2026-06-03",
+  "split": "heldout",
+  "meeting_date": "2026-06-03",
+  "action_items": [
+    {
+      "id": "h3-a1",
+      "turns": [
+        "t004"
+      ],
+      "owner": "Kenji Watanabe",
+      "deadline": "2026-06-05",
+      "kind": "explicit",
+      "description": "Keep pushing engineering on the SSO fix and report back"
+    },
+    {
+      "id": "h3-a2",
+      "turns": [
+        "t005",
+        "t006"
+      ],
+      "owner": "Diego Morales",
+      "deadline": "2026-06-03",
+      "kind": "explicit",
+      "description": "Draft the support macro and share it"
+    },
+    {
+      "id": "h3-a3",
+      "turns": [
+        "t009"
+      ],
+      "owner": "Aisha Bello",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Sit on the hiring panel"
+    },
+    {
+      "id": "h3-a4",
+      "turns": [
+        "t010"
+      ],
+      "owner": "Laura Schmidt",
+      "deadline": "2026-06-03",
+      "kind": "explicit",
+      "description": "Send Aisha the interview schedule"
+    },
+    {
+      "id": "h3-a5",
+      "turns": [
+        "t012"
+      ],
+      "owner": "Aisha Bello",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Get finance to sign off on the agency renewal"
+    },
+    {
+      "id": "h3-a6",
+      "turns": [
+        "t013"
+      ],
+      "owner": "Diego Morales",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Let the staffing agency know once approved"
+    },
+    {
+      "id": "h3-a7",
+      "turns": [
+        "t014",
+        "t015"
+      ],
+      "owner": "Diego Morales",
+      "deadline": "2026-06-04",
+      "kind": "implicit",
+      "description": "Look at the status page integration"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "h3-d1",
+      "turns": [
+        "t012"
+      ],
+      "summary": "Renew the staffing agency contract for one more month"
+    }
+  ],
+  "risks": [
+    {
+      "id": "h3-r1",
+      "turns": [
+        "t008"
+      ],
+      "kind": "risk",
+      "summary": "Hiring panel short one person, slowing hiring"
+    },
+    {
+      "id": "h3-r2",
+      "turns": [
+        "t011"
+      ],
+      "kind": "risk",
+      "summary": "Agency contract ends on the 15th; could lose two contractors"
+    }
+  ],
+  "completions": []
+}

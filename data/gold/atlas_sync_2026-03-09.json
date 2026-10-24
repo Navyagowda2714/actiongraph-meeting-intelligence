@@ -1,0 +1,136 @@
+{
+  "split": "dev",
+  "meeting_date": "2026-03-09",
+  "action_items": [
+    {
+      "id": "m2-a1",
+      "turns": [
+        "t008"
+      ],
+      "owner": "Daniel Okafor",
+      "deadline": "2026-03-10",
+      "kind": "explicit",
+      "description": "Triage the regression bugs"
+    },
+    {
+      "id": "m2-a2",
+      "turns": [
+        "t009"
+      ],
+      "owner": "Sofia Alvarez",
+      "deadline": "2026-03-09",
+      "kind": "explicit",
+      "description": "File the three bugs in Jira"
+    },
+    {
+      "id": "m2-a3",
+      "turns": [
+        "t013"
+      ],
+      "owner": "Lucas Ferreira",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Check whether mobile drop-off changed after the promo fix"
+    },
+    {
+      "id": "m2-a4",
+      "turns": [
+        "t014",
+        "t015"
+      ],
+      "owner": "Priya Raman",
+      "deadline": "2026-03-13",
+      "kind": "explicit",
+      "description": "Run a usability test with five users on the frozen design"
+    },
+    {
+      "id": "m2-a5",
+      "turns": [
+        "t017",
+        "t018"
+      ],
+      "owner": "Daniel Okafor",
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Figure out a plan for load testing"
+    },
+    {
+      "id": "m2-a6",
+      "turns": [
+        "t020"
+      ],
+      "owner": "Maya Chen",
+      "deadline": null,
+      "kind": "explicit",
+      "description": "Ask IT for EU test accounts"
+    },
+    {
+      "id": "m2-a7",
+      "turns": [
+        "t024"
+      ],
+      "owner": null,
+      "deadline": null,
+      "kind": "implicit",
+      "description": "Update the help center articles"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "m2-d1",
+      "turns": [
+        "t011",
+        "t012"
+      ],
+      "summary": "Staged rollout: 10% for the beta, 50% after a week"
+    },
+    {
+      "id": "m2-d2",
+      "turns": [
+        "t022"
+      ],
+      "summary": "Cut gift card support from the beta"
+    }
+  ],
+  "risks": [
+    {
+      "id": "m2-r1",
+      "turns": [
+        "t016"
+      ],
+      "kind": "risk",
+      "summary": "Address service has not been load tested"
+    },
+    {
+      "id": "m2-r2",
+      "turns": [
+        "t019"
+      ],
+      "kind": "blocker",
+      "summary": "QA blocked on EU test accounts"
+    }
+  ],
+  "completions": [
+    {
+      "item": "m1-a1",
+      "turn": "t002"
+    },
+    {
+      "item": "m1-a3",
+      "turn": "t003"
+    },
+    {
+      "item": "m1-a2",
+      "turn": "t004"
+    },
+    {
+      "item": "m1-a5",
+      "turn": "t005"
+    },
+    {
+      "item": "m1-a6",
+      "turn": "t006"
+    }
+  ],
+  "meeting": "atlas_sync_2026-03-09"
+}
