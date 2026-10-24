@@ -1,0 +1,22 @@
+# title: Q2 launch planning
+# meeting_date: 2026-05-12
+
+Nora Kim: Let's keep this short. The launch is on the 28th and we still don't have final messaging.
+Rahul Mehta: I've got a draft of the positioning doc. I'll get it over to everyone first thing tomorrow.
+Nora Kim: Good. Elena, how are the launch visuals coming along?
+Elena Petrova: Hero image is done. Social assets are blocked until messaging is locked, since the copy goes on the images.
+Nora Kim: Makes sense. So messaging is the critical path.
+Sam Carter: From the sales side, the reps need a one-pager and an FAQ before the launch, ideally a week ahead.
+Nora Kim: Sam, can you own the one-pager? Rahul can feed you the key points.
+Sam Carter: Yep, consider it done. I'll aim for the 21st.
+Rahul Mehta: I'll send you the key points once the positioning doc is final.
+Nora Kim: What about the FAQ?
+Rahul Mehta: I can take a first pass at the FAQ, but I'd want support to review it.
+Nora Kim: Fine. Let's have Elena's team skip the animated version this time, it's not worth the effort for this release.
+Elena Petrova: Agreed, static assets only.
+Nora Kim: One worry: the pricing page still shows the old tiers. If that's not fixed before launch, we'll confuse people.
+Elena Petrova: That's a web team thing. I'll ping Marco about it today.
+Nora Kim: Thanks. I'll book a review session with the exec team for next Thursday.
+Sam Carter: Could someone also check whether the demo environment will have the new features by then?
+Rahul Mehta: I'll get back to you on that.
+Nora Kim: Okay. Decision on the launch date: we're holding the 28th unless messaging slips past Friday. That's it, thanks.

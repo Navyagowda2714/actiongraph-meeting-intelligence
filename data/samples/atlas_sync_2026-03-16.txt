@@ -1,0 +1,25 @@
+# title: Atlas checkout redesign - weekly sync #3
+# meeting_date: 2026-03-16
+# series: atlas-checkout
+
+[00:00:04] Maya Chen: Okay, final sync before the beta. Let's go through open items first.
+[00:00:09] Daniel Okafor: The Adyen migration note is done, I sent it round on Friday. Short version, it's about four weeks of work.
+[00:00:17] Priya Raman: I ran the usability test with five users on Thursday. Four of five completed checkout without help, which is a big improvement.
+[00:00:27] Daniel Okafor: Sofia's three bugs are triaged, and two are already fixed.
+[00:00:31] Sofia Alvarez: Yep, I filed them in Jira last Monday. And the regression pass is complete, all clear except one P2 in the order summary.
+[00:00:41] Lucas Ferreira: I pulled the mobile number. Drop-off went from forty-five to thirty-nine percent after the promo fix. And the conversion dashboard is live, I'll share the link after this.
+[00:00:53] Maya Chen: Nice. IT set up the EU test accounts on Wednesday, so Sofia is unblocked.
+[00:00:59] Daniel Okafor: Load testing: the plan is written, and we'll run it on Wednesday against staging.
+[00:01:05] Maya Chen: Good. So, go or no-go for the beta on the 23rd?
+[00:01:10] Daniel Okafor: Go, assuming the load test passes.
+[00:01:13] Sofia Alvarez: Go from QA. The P2 is cosmetic.
+[00:01:17] Maya Chen: Okay, decision: we go for the beta on March 23rd at ten percent, and the P2 ships as a known issue.
+[00:01:25] Maya Chen: I'll send the go/no-go summary to leadership by Thursday.
+[00:01:30] Sofia Alvarez: One risk, the support team hasn't been briefed on the new checkout yet. If users hit the P2, tickets will spike and they won't know what to say. I'll brief the support team on Friday.
+[00:01:44] Daniel Okafor: Good catch.
+[00:01:47] Sofia Alvarez: And I can take the help center articles too, since I'm already writing the support notes.
+[00:01:54] Daniel Okafor: Lucas, can you set up an alert if conversion drops below the baseline during the beta?
+[00:02:01] Lucas Ferreira: Will do. I'll have it in place before Monday.
+[00:02:05] Priya Raman: I'll keep an eye on the session recordings once the beta starts. And at some point I'll update the empty-state illustrations, nothing urgent.
+[00:02:15] Daniel Okafor: I'll be out Thursday afternoon, by the way, so ping me before noon if you need anything.
+[00:02:22] Maya Chen: Noted. Great work, everyone. See you on launch day.

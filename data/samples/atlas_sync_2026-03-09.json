@@ -1,0 +1,157 @@
+{
+  "title": "Atlas checkout redesign - weekly sync #2",
+  "meeting_date": "2026-03-09",
+  "series": "atlas-checkout",
+  "turns": [
+    {
+      "speaker": "Maya Chen",
+      "text": "Morning everyone. Let's start with a quick round of updates on last week's items, then the rollout plan.",
+      "start": 4.0,
+      "end": 10.92
+    },
+    {
+      "speaker": "Priya Raman",
+      "text": "The mockups went out Wednesday as planned, and the design is frozen. I've attached the final file to the ticket.",
+      "start": 11.72,
+      "end": 19.42
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "The promo code reset bug is fixed, the patch was merged on Tuesday.",
+      "start": 20.22,
+      "end": 25.22
+    },
+    {
+      "speaker": "Lucas Ferreira",
+      "text": "I shared the country breakdown in the channel on Tuesday. Germany and France are the worst for mobile drop-off.",
+      "start": 26.02,
+      "end": 33.32
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "And I escalated the address vendor issue with their account manager. We got production credentials on Thursday, so that blocker is gone.",
+      "start": 34.12,
+      "end": 42.58
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "Staging was refreshed Wednesday afternoon, and I've started on the Adyen note. It should be done by Friday.",
+      "start": 43.38,
+      "end": 50.31
+    },
+    {
+      "speaker": "Sofia Alvarez",
+      "text": "Regression is about halfway. I found three bugs so far, two in the address form and one in the order summary.",
+      "start": 51.11,
+      "end": 59.18
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "Send them my way and I'll triage them tomorrow morning.",
+      "start": 59.98,
+      "end": 63.83
+    },
+    {
+      "speaker": "Sofia Alvarez",
+      "text": "Will do. I'll file the three bugs in Jira today.",
+      "start": 64.63,
+      "end": 68.48
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "Great. Now the rollout. I'd like to avoid a big-bang launch.",
+      "start": 69.28,
+      "end": 73.51
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "Agreed. My suggestion is a staged rollout, ten percent of traffic for the beta, then fifty percent after a week if conversion holds.",
+      "start": 74.31,
+      "end": 83.15
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "Okay, let's do that. Staged rollout, ten percent first, fifty after a week.",
+      "start": 83.95,
+      "end": 88.95
+    },
+    {
+      "speaker": "Lucas Ferreira",
+      "text": "I'll admit the drop-off numbers surprised me last week. Someone should probably check whether mobile drop-off changed after the promo fix. I can pull that number.",
+      "start": 89.75,
+      "end": 99.75
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "Please do. Priya, could you run a quick usability test with five users on the frozen design by Friday?",
+      "start": 100.55,
+      "end": 107.86
+    },
+    {
+      "speaker": "Priya Raman",
+      "text": "Yes, I'll set that up.",
+      "start": 108.66,
+      "end": 110.66
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "One thing that worries me is load testing. We haven't load tested the new address service at all, and if beta traffic spikes we don't really know how it behaves.",
+      "start": 111.46,
+      "end": 123.0
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "Can you own that?",
+      "start": 123.8,
+      "end": 125.8
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "Leave it with me, I'll figure out a plan for load testing.",
+      "start": 126.6,
+      "end": 131.22
+    },
+    {
+      "speaker": "Sofia Alvarez",
+      "text": "Also, I'm blocked on test accounts for the EU stores. I can't check the VAT display without them.",
+      "start": 132.02,
+      "end": 138.94
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "I'll ask IT for EU test accounts.",
+      "start": 139.74,
+      "end": 142.43
+    },
+    {
+      "speaker": "Priya Raman",
+      "text": "Should we keep gift card support in the beta? It's only half built.",
+      "start": 143.23,
+      "end": 148.23
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "I don't think so. Let's cut gift card support from the beta and bring it back after launch.",
+      "start": 149.03,
+      "end": 155.95
+    },
+    {
+      "speaker": "Daniel Okafor",
+      "text": "Fine by me, that frees up a couple of days.",
+      "start": 156.75,
+      "end": 160.6
+    },
+    {
+      "speaker": "Sofia Alvarez",
+      "text": "We should probably update the help center articles at some point too, since the screens all changed.",
+      "start": 161.4,
+      "end": 167.94
+    },
+    {
+      "speaker": "Maya Chen",
+      "text": "Good point. Okay, that's it for today. Thanks all.",
+      "start": 168.74,
+      "end": 172.2
+    }
+  ]
+}

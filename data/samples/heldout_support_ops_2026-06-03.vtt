@@ -1,0 +1,68 @@
+WEBVTT
+
+NOTE title: Support ops weekly
+NOTE meeting_date: 2026-06-03
+
+1
+00:00:03.000 --> 00:00:07.620
+<v Aisha Bello>Two topics today, the backlog of escalations and the new support hire.</v>
+
+2
+00:00:08.420 --> 00:00:14.180
+<v Kenji Watanabe>Escalations are at forty-two open, up from thirty last week. Most are the SSO bug.</v>
+
+3
+00:00:14.980 --> 00:00:16.980
+<v Aisha Bello>Is engineering looking at SSO?</v>
+
+4
+00:00:17.780 --> 00:00:23.940
+<v Kenji Watanabe>They have a fix in review. I'll keep pushing them on it and report back Friday.</v>
+
+5
+00:00:24.740 --> 00:00:31.280
+<v Aisha Bello>Please do. In the meantime, can we put a macro together so agents stop writing custom replies?</v>
+
+6
+00:00:32.080 --> 00:00:37.080
+<v Diego Morales>I'll draft the macro this afternoon and share it in the support channel.</v>
+
+7
+00:00:37.880 --> 00:00:41.720
+<v Aisha Bello>Perfect. Laura, where are we with the support engineer role?</v>
+
+8
+00:00:42.520 --> 00:00:50.220
+<v Laura Schmidt>We have three candidates in final rounds. The hiring panel is short one person, though, which is slowing everything down.</v>
+
+9
+00:00:51.020 --> 00:00:53.320
+<v Aisha Bello>I can sit on the panel.</v>
+
+10
+00:00:54.120 --> 00:00:58.350
+<v Laura Schmidt>Great, I'll send you the interview schedule by end of day.</v>
+
+11
+00:00:59.150 --> 00:01:06.850
+<v Diego Morales>Heads-up, my contract with the staffing agency ends on the 15th, so we either renew or lose the two contractors.</v>
+
+12
+00:01:07.650 --> 00:01:12.260
+<v Aisha Bello>We'll renew for one more month. I'll get finance to sign off.</v>
+
+13
+00:01:13.060 --> 00:01:16.520
+<v Diego Morales>Okay. I'll let the agency know once it's approved.</v>
+
+14
+00:01:17.320 --> 00:01:23.860
+<v Kenji Watanabe>Last thing, the status page didn't update during Monday's outage. Someone needs to look at that integration.</v>
+
+15
+00:01:24.660 --> 00:01:27.350
+<v Diego Morales>That's mine, I'll look at it tomorrow.</v>
+
+16
+00:01:28.150 --> 00:01:30.150
+<v Aisha Bello>Thanks, everyone.</v>
