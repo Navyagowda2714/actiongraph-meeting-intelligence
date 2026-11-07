@@ -6,7 +6,7 @@ transcript turn that supports it, and open items are tracked across a meeting se
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![CI](https://github.com/Navyagowda2714/actiongraph/actions/workflows/ci.yml/badge.svg)](https://github.com/Navyagowda2714/actiongraph/actions/workflows/ci.yml)
+[![CI](https://github.com/Navyagowda2714/actiongraph-meeting-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/Navyagowda2714/actiongraph-meeting-intelligence/actions/workflows/ci.yml)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 ![ActionGraph dashboard: action items with owners, deadlines, priority chips and linked evidence](docs/images/actions.png)
@@ -86,7 +86,7 @@ ADRs, failure modes, security and scaling.
 ## Quickstart
 
 ```bash
-git clone https://github.com/Navyagowda2714/actiongraph && cd actiongraph
+git clone https://github.com/Navyagowda2714/actiongraph-meeting-intelligence && cd actiongraph-meeting-intelligence
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 
@@ -219,7 +219,7 @@ closures. The thresholds were tuned on this series, so this is not a generalisat
 Methodology, error analysis and caveats (small self-written data, rules developed on dev) are in
 [docs/EVALUATION.md](docs/EVALUATION.md).
 
-## Design decisions and trade-offs
+## Design decisions & trade-offs
 
 - **The LLM extracts, code computes.** Models return deadline *phrases* and *quotes*. Dates,
   owner resolution and evidence checks are deterministic, which makes them reproducible and
